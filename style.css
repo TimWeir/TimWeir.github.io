@@ -38,17 +38,17 @@ header {
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   ul {
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   a {
-    color: #d21034;
+    color: #1027d2;
   }
   
   /* Selecting elements by class */
