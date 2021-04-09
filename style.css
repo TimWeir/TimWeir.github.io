@@ -1,0 +1,95 @@
+body { background-image: linear-gradient(color, color); }
+html {
+  height: 100%;
+  }
+  body {
+  background-image: linear-gradient(#dc8149, rgb(152, 54, 54));
+  }
+
+@font-face {
+    font-family: 'Transformers'; /*a name to be used later*/
+    src: url('Resources/Transformers.ttf'); /*URL to font*/
+}
+
+header {
+    background: #333;
+  }
+  
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #eee;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Transformers';
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-family: 'Transformers';
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+  }
+
+  h4 {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  ul {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  a {
+    color: #d21034;
+  }
+  
+  /* Selecting elements by class */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  
+  /* Selecting elements by ID */
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+    left: 20px;
+  }
+  
+  #figure {
+    position: relative;
+  }
+  
+  #bio-name {
+    position: absolute;
+    top: 180px;
+    left: 20px;
+  }
+  
+  #main-bio {
+    position: absolute;
+    right: 10px;
+    width: 90%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+
+
+  
